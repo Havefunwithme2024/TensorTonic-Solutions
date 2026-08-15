@@ -1,5 +1,7 @@
-from math import log
-
 def log_transform(values):
-    values = [log(value + 1) for value in values]
-    return values
+    """
+    Apply the log1p transformation to each value.
+    """
+    # Write code here
+    values = np.asarray(values)
+    return np.log(1+values)
