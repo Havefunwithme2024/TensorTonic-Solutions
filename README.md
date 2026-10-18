@@ -23,6 +23,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 |---|---|---|
 | Implement Adam Optimizer Step | Implement one vectorized Adam optimizer step in NumPy with first and second moments, bias correction, and elementwise parameter updates. | https://www.tensortonic.com/problems/adam-optimizer |
 | Adjusted Cosine Similarity | Compute adjusted cosine similarity for item-based collaborative filtering using co-rated users and mean-centered ratings. | https://www.tensortonic.com/problems/adjusted-cosine-similarity |
+| Initialize Legal MCTS Edge Statistics | A newly expanded search node receives one edge for every action, but only legal actions receive prior mass. | https://www.tensortonic.com/problems/alphago-l03-initialize-edge-statistics |
 | Anchor Box Generation | Generate object-detection anchor boxes across a feature grid for every scale and aspect-ratio combination. | https://www.tensortonic.com/problems/anchor-box-generation |
 | Compute AUC (Area Under ROC) | Calculate binary-classification ROC AUC from false-positive and true-positive rates using trapezoidal integration. | https://www.tensortonic.com/problems/auc |
 | Evaluate a Dense Layer | Evaluate a PyTorch layer of independent scalar neurons sharing one input vector, with optional elementwise tanh. | https://www.tensortonic.com/problems/autograd-l07-dense-layer-forward |
